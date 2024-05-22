@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-20 14:27:09.422847",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_section",
+  "student_name",
+  "subject",
+  "email",
+  "column_break_ymmu",
+  "question",
+  "answers_section",
+  "answer",
+  "attached_image",
+  "for_faculty_section",
+  "image_editor",
+  "edited_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "subject"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "column_break_ymmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Text Editor",
+   "label": "Question"
+  },
+  {
+   "fieldname": "answers_section",
+   "fieldtype": "Section Break",
+   "label": "Answers"
+  },
+  {
+   "fieldname": "answer",
+   "fieldtype": "Attach Image",
+   "label": "answer"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name"
+  },
+  {
+   "fieldname": "image_editor",
+   "fieldtype": "Long Text",
+   "hidden": 1,
+   "label": "Edited Image",
+   "length": 2000000
+  },
+  {
+   "fieldname": "attached_image",
+   "fieldtype": "Image",
+   "label": "Attached Image",
+   "max_height": "100px",
+   "options": "answer",
+   "width": "50"
+  },
+  {
+   "fieldname": "for_faculty_section",
+   "fieldtype": "Section Break",
+   "label": "For Faculty"
+  },
+  {
+   "fieldname": "edited_image",
+   "fieldtype": "Attach Image",
+   "label": "Annotated Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-22 18:01:40.552024",
+ "modified_by": "Administrator",
+ "module": "Image Editor",
+ "name": "Student Response",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
