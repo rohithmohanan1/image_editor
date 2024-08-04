@@ -49,6 +49,7 @@
    "label": "Answers"
   },
   {
+   "default": "0",
    "fieldname": "answer",
    "fieldtype": "Attach Image",
    "label": "answer"
@@ -86,7 +87,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-22 18:01:40.552024",
+ "modified": "2024-07-03 17:39:53.787091",
  "modified_by": "Administrator",
  "module": "Image Editor",
  "name": "Student Response",
